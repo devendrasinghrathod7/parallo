@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bg-01.jpg);
+    background-size: 100% 90%;
+    background-repeat:repeat-y;
+    font-family: var(--body-font);
+}
+.main {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background: linear-gradient(rgba(226, 223, 232, 0.9), rgba(244, 243, 243, 0.6));
+    height: 130px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pan{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    font-size: 25px;
+}
+.parallo{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 25px;
+}
+.lending{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    font-size: 15px;
+}
+.nav1{
+    background: linear-gradient(rgba(226, 223, 232, 0.9), rgba(244, 243, 243, 0.6));
+    height: 80px;
+    width: 70%;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.home{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+    position: relative;
+    top: 20px;
+    color: black;
+}
+
+.home:hover{
+    background-color:black;
+    color: white;
+    padding: 8px;
+}  
+@media screen and (max-width:900px){
+    .home{
+        display: block;
+    }
+    .nav1{
+    background: linear-gradient(rgba(226, 223, 232, 0.9), rgba(244, 243, 243, 0.6));
+    height: 50vh;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .nav{
+    background: linear-gradient(rgba(226, 223, 232, 0.9), rgba(244, 243, 243, 0.6));
+    height: 130px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    .button{
+        width: 20vw;
+    }
+}
+.mobile{
+    color: white;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fa{
+    color: white;
+}
+.develop{
+    border-bottom: 1px solid white;      
+}
+.we{
+    padding-block: 20px;
+    word-spacing: 5px;
+}
+.app{
+    margin-top: 20px ;
+}
+.pisa{
+    margin-top: 20px;
+}
+.button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 20vw;
+    border: none;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.im{
+    float: right;
+    margin-top: -350px;
+    height: 70vh;
+    width: 25vw;
+    margin-right: 80px;
+}
+@media (max-width:600px) {
+    .im{
+       float:none;
+       margin: 20px;
+       height: 60vh;
+       width: 45vw;
+       margin-left: 120px;
+    }
+    .button{
+        width: 150px;
+        border: none;
+    }
+    .nav{
+        width: 400px;
+    }
+}
+h3{
+    color: black;
+}
+.maincard{
+    color: rgb(114, 107, 107);
+    text-align: center;
+    /* display: flex; */
+    margin-left: 110px;
+    margin-top: 150px;
+}
+.card1{
+    background: white;   
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-block: 40px;
+    margin-top: 30px;
+    float: left;
+    
+}
+/* .card2{
+    background: white;   
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-block: 40px;
+    margin-top: 20px;
+}
+.card3{
+    background: white;   
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-block: 40px;
+    margin-top: 20px;
+} */
+.minus{
+    font-size: 50px;
+}
+.cxrd{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+  
+}
+.cxrd:hover{
+    padding: 10px;
+    background-color: rgb(162, 157, 157);
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+}
+.phone1{
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 20px;  
+    width: 46.2vw;   
+}
+.phone1:hover{
+    transform: scale(0.9);
+    transition: 2s;
+    opacity: 0.5;
+}
+.contact{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.getb{
+    color: white;
+    background-color: rgb(9, 148, 235);
+    padding: 10px;
+    border: none;
+    width: 200px;
+    margin: 20px;
+}
+.jay{
+  clear: both;
+
+  margin-block: 50px;
+}
+.con{
+    background-color: white;
+    margin-inline: 20px;
+}
+.type{
+    padding: 10px;
+    width: 250px;
+    
+}
+.form{
+    padding: 20px;
+}
+.h2{
+    padding: 20px;
+}
